@@ -14,10 +14,10 @@ The Central Authority manages ClientHost authentication as well. A ClientHost mu
 
 ## Content Delivery Network Authority (CDNA)
 
-CDNAs are semi-central that serve and verify Sharables (e.g. Files). When the are turned on, they verify with the Central Authority that they are online, and after that the Central Authority will include the CDNA node in its list of active nodes, and Client Hosts will ping it for latency.
+CDNAs are semi-central that serve and verify Content (e.g. Files). When a CDNA is turned on, it verifies with the Central Authority that it has come online, and after that the Central Authority will include the CDNA node in its list of active nodes, and Client Hosts will be allowed to ping it to measure latency.
 
 A CDNA is also responsible for propagating files that are uploaded to it (and checked for malware and such) to other CDNAs for distribution. It also keeps track of who has what sharable to power P2P coordination.
 
 ## Client Host
 
-A Client Host is the program running on a client's machine. It must authenticate with a Central Authority before being allowed to share Shareables that it has previous downloaded from a CDNA and before being allowed to upload Shareables to the CDNA Network.
+A Client Host is the program running on a client's machine. It must authenticate with a Central Authority before being allowed to share Content that it has previous downloaded from a CDNA and before being allowed to upload Content to the CDNA Network.
