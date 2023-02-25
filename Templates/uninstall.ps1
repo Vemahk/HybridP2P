@@ -1,2 +1,3 @@
-﻿dotnet new uninstall .\Api
-dotnet new uninstall .\Library
+﻿$paths = Get-ChildItem -Directory *
+$paths | %{ dotnet new uninstall ".\$($_.Name)" }
+pause

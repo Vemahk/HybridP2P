@@ -1,2 +1,3 @@
-dotnet new install .\Api
-dotnet new install .\Library
+$paths = Get-ChildItem -Directory *
+$paths | %{ dotnet new install ".\$($_.Name)" }
+pause
