@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  
+  <PropertyGroup>  
+    <Version>0.0.1</Version>
+    <PackageId>Vemahk.Common.Encryption</PackageId>
+    <Title>Encryption Utilities</Title>
+    <Authors>Vemahk</Authors>
+    <Description>Common utils for encryption. RSA and the like for private/public keying.</Description>
+  </PropertyGroup>
+</Project>
