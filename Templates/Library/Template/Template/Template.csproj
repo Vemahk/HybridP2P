@@ -5,5 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+  
+  <PropertyGroup>  
+    <Version>0.0.1</Version>
+    <PackageId>Template</PackageId>
+    <Title>Template</Title>
+    <Authors>Vemahk</Authors>
+    <Description>Template.Description</Description>
+  </PropertyGroup>
 </Project>

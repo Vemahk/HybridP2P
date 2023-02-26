@@ -4,6 +4,9 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+  </PropertyGroup>
+    
+  <PropertyGroup>
     <Version>0.0.1</Version>
     <PackageId>Vemahk.Common.Infrastructure</PackageId>
     <Title>Infrastructure</Title>
